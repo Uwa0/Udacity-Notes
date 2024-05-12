@@ -1,6 +1,0 @@
-JOINS
-
-SELECT accounts.*, orders.*
-FROM accounts
-JOIN orders
-ON accounts.id = orders.account_id;
